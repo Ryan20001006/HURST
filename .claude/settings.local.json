@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from hurst import compute_Hc; import inspect; print\\(inspect.signature\\(compute_Hc\\)\\)\")",
+      "Bash(python -c \"import pyESN; import inspect; print\\(inspect.getsource\\(pyESN.ESN.__init__\\)\\)\")",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
